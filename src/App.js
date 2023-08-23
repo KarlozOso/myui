@@ -3,6 +3,10 @@ import './App.css';
 import CardPrices from "./components/CardPrices";
 import Hero from "./components/Hero";
 import Slider from "./components/Slider";
+import Spotify from "./components/Spotify";
+import MyComponent from "./components/MyComponent";
+import WhatsappButton from "./components/WhatsAppButton";
+
 
 
 function App() {
@@ -11,7 +15,8 @@ function App() {
     <Navbar />
     <Hero />
     <CardPrices />
-    <Slider />
+    <MyComponent />
+    <WhatsappButton />
     </div>
   );
 }
