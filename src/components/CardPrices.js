@@ -167,6 +167,7 @@ export default function CardPrices() {
                 </div>
             </div>
         </div>
+      
     </div>
 </div>
 

@@ -6,6 +6,7 @@ import Slider from "./components/Slider";
 import Spotify from "./components/Spotify";
 import MyComponent from "./components/MyComponent";
 import WhatsappButton from "./components/WhatsAppButton";
+import Cards from "./components/Cards"
 
 
 
@@ -17,6 +18,8 @@ function App() {
     <CardPrices />
     <MyComponent />
     <WhatsappButton />
+      <Slider />
+      <Cards />
     </div>
   );
 }
