@@ -13,9 +13,9 @@ export default function CardPrices() {
 
   return (
 
-    <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 mt-8 mb-6">
+    <div class="relative max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8 mt-8 mb-6 drop-shadow-lg">
     <div class="max-w-lg mx-auto overflow-hidden rounded-lg shadow-lg pricing-box lg:max-w-none lg:flex">
-        <div class="px-6 py-8 bg-white dark:bg-gray-800 lg:flex-shrink-1 lg:p-12">
+        <div class="px-6 py-8 bg-gray-200 dark:bg-gray-800 lg:flex-shrink-1 lg:p-12">
             <h3 class="text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
                 Zero Commission
             </h3>
@@ -24,7 +24,7 @@ export default function CardPrices() {
             </p>
             <div class="mt-8">
                 <div class="flex items-center">
-                    <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-white dark:bg-gray-800">
+                    <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase dark:bg-gray-800">
                         What&#x27;s included
                     </h4>
                     <div class="flex-1 border-t-2 border-gray-200">
@@ -112,7 +112,7 @@ export default function CardPrices() {
             </div>
             <div class="mt-8">
                 <div class="flex items-center">
-                    <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-white dark:bg-gray-800">
+                    <h4 class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase dark:bg-gray-800">
                         &amp; What&#x27;s not
                     </h4>
                 </div>

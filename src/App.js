@@ -7,18 +7,19 @@ import Spotify from "./components/Spotify";
 import MyComponent from "./components/MyComponent";
 import WhatsappButton from "./components/WhatsAppButton";
 import Cards from "./components/Cards"
+import Section from "./components/Section";
 
 
 
 function App() {
   return (
-    <div className="App bg-slate-600 pt-2 pb-6">
+    <div className="App  dark:bg-slate-600 bg-white pt-2 pb-6">
     <Navbar />
     <Hero />
     <CardPrices />
     <MyComponent />
     <WhatsappButton />
-      <Slider />
+      <Section />
       <Cards />
     </div>
   );

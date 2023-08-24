@@ -15,7 +15,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white rounded-xl my-2 mx-4 lg:mx-40 z-40 dark:bg-gray-900">
+    <Disclosure as="nav" className="bg-gray-300 rounded-xl my-2 mx-4 lg:mx-40 z-40 dark:bg-gray-900">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
